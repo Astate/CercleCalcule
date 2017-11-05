@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CercleCalcule</string>
+    <string name="rayon">Rayon</string>
+    <string name="diametre">Diamètre</string>
+    <string-array name="mesure_array">
+        <item>Rayon</item>
+        <item>Diamètre</item>
+    </string-array>
+</resources>
