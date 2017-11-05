@@ -24,7 +24,7 @@ class MainActivity : AppCompatActivity() {
     @SuppressLint("SetTextI18n")
     fun onAnswerClick(view: View) {
 
-        val answer = (findViewById<EditText>(R.id.editText2) as EditText).text.toString()
+        val answer = (findViewById<EditText>(R.id.editText_result) as EditText).text.toString()
         val spinner = findViewById<View>(R.id.spinner) as Spinner
 
 

@@ -2,6 +2,10 @@
     <string name="app_name">CercleCalcule</string>
     <string name="rayon">Rayon</string>
     <string name="diametre">Diamètre</string>
+    <string name="circonference">Circonférence: </string>
+    <string name="aire">Aire: </string>
+    <string name="logo">logo</string>
+    <string name="botcaclculer">Calculer</string>
     <string-array name="mesure_array">
         <item>Rayon</item>
         <item>Diamètre</item>

@@ -11,7 +11,7 @@
         android:id="@+id/imageView"
         android:layout_width="384dp"
         android:layout_height="120dp"
-        android:contentDescription="LogoCalculCercle"
+        android:contentDescription="@string/logo"
         android:scaleType="centerCrop"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -26,7 +26,7 @@
         android:layout_marginTop="8dp"
         android:background="@color/colorPrimary"
         android:onClick="onAnswerClick"
-        android:text="Calculer"
+        android:text="@string/botcaclculer"
         android:textColor="@android:color/background_light"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -49,10 +49,11 @@
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="162dp"
+            android:labelFor="@+id/editText_result"
             android:layout_height="match_parent" />
 
         <EditText
-            android:id="@+id/editText2"
+            android:id="@+id/editText_result"
             android:layout_width="209dp"
             android:layout_height="match_parent"
             android:width="150dp"
@@ -60,6 +61,7 @@
             android:ems="10"
             android:imeOptions="actionDone"
             android:inputType="numberDecimal"
+            android:labelFor="@+id/spinner"
             android:maxLength="11"
             android:textSize="36sp" />
 
@@ -79,10 +81,10 @@
         app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textView_cire"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Circonférence:" />
+            android:text="@string/circonference" />
 
         <TextView
             android:id="@+id/cire"
@@ -114,10 +116,10 @@
 
 
         <TextView
-            android:id="@+id/textView5"
+            android:id="@+id/textView_aire"
             android:layout_width="100dp"
             android:layout_height="wrap_content"
-            android:text="Aire: " />
+            android:text="@string/aire" />
 
         <TextView
             android:id="@+id/aire"
